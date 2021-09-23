@@ -10,7 +10,7 @@ void game() {
 	SetMines(mines, ROW, COL);
 	//DisplayBoard(mines, ROW, COL);
 	DisplayBoard(show, ROW, COL);
-	// 玩家搜雷  如果踩雷直接游戏结束
+	// 玩家搜雷  如果踩雷直接游戏结束 返回选择界面
 	FindMine(show, mines, ROW, COL);
 }
 
